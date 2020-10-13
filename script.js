@@ -74,7 +74,9 @@ d3.csv('wealth-health-2014.csv', d=> {
 		.attr('cy', (d,i)=>LifeExpectancy(d.LifeExpectancy))
         .attr('fill', d=>color(d.Region)) 
         .attr('r',d=>Population(d.Population))
-        .attr('opacity', .5)
+        .attr('opacity', .6)
+        .attr('stroke', 'black')
+        .attr('stroke-width', '.75')
         .on("mouseenter", (event, d) => {
             const pos = d3.pointer(event, window)
             d3.selectAll('.tooltip')
