@@ -1,0 +1,14 @@
+
+.tooltip{
+  position:fixed;
+  display:none;
+  background-color: black;
+  opacity: .7;
+  color: white;
+  padding: 7px;
+  border-radius: 5%;
+}
+
+.legend{
+  
+}
